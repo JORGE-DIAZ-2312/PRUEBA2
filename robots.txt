@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /politicas.html  # Si no quieres que indexen esta página
-Sitemap: https://jorge-diaz-2312.github.io/prueba2/sitemap.xml
+Sitemap: https://jorge-diaz-2312.github.io/PRUEBA2/sitemap.xml
