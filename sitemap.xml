@@ -3,35 +3,77 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  
-  <!-- Versión optimizada manteniendo estructura original pero mejorando para SEO -->
-  
-  <!-- Página principal (sin fragmento #) -->
+
+  <!-- Página principal -->
   <url>
-    <loc>https://jorge-diaz-2312.github.io/pruebas/</loc>
-    <lastmod>2025-06-14</lastmod>
+    <loc>https://jorge-diaz-2312.github.io/PRUEBA2/</loc>
+    <lastmod>2024-06-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
   </url>
-  
-  <!-- Secciones importantes (solo si son páginas independientes) -->
-  <!-- Eliminados los fragmentos # que no son indexables -->
-  
-  <!-- Página de políticas (mantenida) -->
+
+  <!-- Todas las secciones con fragmentos (#) -->
   <url>
-    <loc>https://jorge-diaz-2312.github.io/pruebas/politicas.html</loc>
-    <lastmod>2025-06-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
+    <loc>https://jorge-diaz-2312.github.io/PRUEBA2/#SP</loc>
+    <lastmod>2024-06-20</lastmod>
+    <priority>0.95</priority>
+  </url>
+  
+  <url>
+    <loc>https://jorge-diaz-2312.github.io/PRUEBA2/#S1</loc>
+    <lastmod>2024-06-20</lastmod>
+    <priority>0.90</priority>
+  </url>
+  
+  <url>
+    <loc>https://jorge-diaz-2312.github.io/PRUEBA2/#S2</loc>
+    <lastmod>2024-06-20</lastmod>
+    <priority>0.90</priority>
+  </url>
+  
+  <url>
+    <loc>https://jorge-diaz-2312.github.io/PRUEBA2/#S3</loc>
+    <lastmod>2024-06-20</lastmod>
+    <priority>0.90</priority>
+  </url>
+  
+  <url>
+    <loc>https://jorge-diaz-2312.github.io/PRUEBA2/#S4</loc>
+    <lastmod>2024-06-20</lastmod>
+    <priority>0.90</priority>
+  </url>
+  
+  <url>
+    <loc>https://jorge-diaz-2312.github.io/PRUEBA2/#S5</loc>
+    <lastmod>2024-06-20</lastmod>
+    <priority>0.90</priority>
+  </url>
+  
+  <url>
+    <loc>https://jorge-diaz-2312.github.io/PRUEBA2/#S6</loc>
+    <lastmod>2024-06-20</lastmod>
+    <priority>0.90</priority>
+  </url>
+  
+  <url>
+    <loc>https://jorge-diaz-2312.github.io/PRUEBA2/#S7</loc>
+    <lastmod>2024-06-20</lastmod>
+    <priority>0.90</priority>
   </url>
 
-  <!-- Si necesitas indexar secciones específicas como páginas independientes, usa: -->
-  <!--
+  <!-- Página de políticas -->
   <url>
-    <loc>https://jorge-diaz-2312.github.io/pruebas/seccion1.html</loc>
-    <lastmod>2025-06-14</lastmod>
+    <loc>https://jorge-diaz-2312.github.io/PRUEBA2/politicas.html</loc>
+    <lastmod>2024-06-20</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
-  -->
+
+  <!-- Página de contacto (si existe) -->
+  <url>
+    <loc>https://jorge-diaz-2312.github.io/PRUEBA2/contacto.html</loc>
+    <lastmod>2024-06-20</lastmod>
+    <priority>0.80</priority>
+  </url>
 
 </urlset>
