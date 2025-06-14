@@ -4,61 +4,34 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   
-  <!-- Página principal y secciones -->
+  <!-- Versión optimizada manteniendo estructura original pero mejorando para SEO -->
+  
+  <!-- Página principal (sin fragmento #) -->
   <url>
-    <loc>https://jorge-diaz-2312.github.io/pruebas/#SP</loc>
+    <loc>https://jorge-diaz-2312.github.io/pruebas/</loc>
     <lastmod>2025-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
   </url>
   
-  <url>
-    <loc>https://jorge-diaz-2312.github.io/pruebas/#S1</loc>
-    <lastmod>2025-06-14</lastmod>
-    <priority>0.90</priority>
-  </url>
+  <!-- Secciones importantes (solo si son páginas independientes) -->
+  <!-- Eliminados los fragmentos # que no son indexables -->
   
-  <url>
-    <loc>https://jorge-diaz-2312.github.io/pruebas/#S2</loc>
-    <lastmod>2025-06-14</lastmod>
-    <priority>0.90</priority>
-  </url>
-  
-  <url>
-    <loc>https://jorge-diaz-2312.github.io/pruebas/#S3</loc>
-    <lastmod>2025-06-14</lastmod>
-    <priority>0.90</priority>
-  </url>
-  
-  <url>
-    <loc>https://jorge-diaz-2312.github.io/pruebas/#S4</loc>
-    <lastmod>2025-06-14</lastmod>
-    <priority>0.90</priority>
-  </url>
-  
-  <url>
-    <loc>https://jorge-diaz-2312.github.io/pruebas/#S5</loc>
-    <lastmod>2025-06-14</lastmod>
-    <priority>0.90</priority>
-  </url>
-  
-  <url>
-    <loc>https://jorge-diaz-2312.github.io/pruebas/#S6</loc>
-    <lastmod>2025-06-14</lastmod>
-    <priority>0.90</priority>
-  </url>
-  
-  <url>
-    <loc>https://jorge-diaz-2312.github.io/pruebas/#S7</loc>
-    <lastmod>2025-06-14</lastmod>
-    <priority>0.90</priority>
-  </url>
-  
-  <!-- Página de políticas -->
+  <!-- Página de políticas (mantenida) -->
   <url>
     <loc>https://jorge-diaz-2312.github.io/pruebas/politicas.html</loc>
     <lastmod>2025-06-14</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
+
+  <!-- Si necesitas indexar secciones específicas como páginas independientes, usa: -->
+  <!--
+  <url>
+    <loc>https://jorge-diaz-2312.github.io/pruebas/seccion1.html</loc>
+    <lastmod>2025-06-14</lastmod>
+    <priority>0.85</priority>
+  </url>
+  -->
 
 </urlset>
