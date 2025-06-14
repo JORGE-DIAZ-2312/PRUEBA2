@@ -21,6 +21,16 @@
     <!-- Para dispositivos Apple -->
     <link rel="apple-touch-icon" sizes="180x180" href="IMAGENES/LOGO/apple-touch-icon.png">
     <meta name="apple-mobile-web-app-title" content="Conexión Digital">
+
+    <!-- 1. Cache Control (mejora tiempos de carga para visitantes recurrentes) -->
+<meta http-equiv="Cache-Control" content="public, max-age=604800, immutable">
+
+<!-- 2. Preconexión a jsDelivr CDN (acelera la carga de recursos) -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+
+<!-- 3. Precarga de recursos críticos (opcional pero recomendado) -->
+<link rel="preload" href="tu-archivo.css" as="style">
+<link rel="preload" href="tu-archivo.js" as="script">
     
     <!-- Web App Manifest -->
     <link rel="manifest" href="IMAGENES/LOGO/site.webmanifest">
